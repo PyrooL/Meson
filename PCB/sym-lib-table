@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name random-keyboard-parts)(type Legacy)(uri "${KIPRJMOD}/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
   (lib (name promicro)(type Legacy)(uri ${KIPRJMOD}/ProMicroKiCad-master/promicro_library/promicro.lib)(options "")(descr ""))
+  (lib (name meson-rescue)(type Legacy)(uri ${KIPRJMOD}/meson-rescue.lib)(options "")(descr ""))
 )

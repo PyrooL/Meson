@@ -74,7 +74,7 @@ SCL
 Text GLabel 6300 2450 0    50   Input ~ 0
 SDA
 $Comp
-L keyboard_parts:KEYSW K1
+L meson-rescue:KEYSW-keyboard_parts K1
 U 1 1 5CA6F213
 P 4700 4200
 F 0 "K1" H 4700 4433 60  0000 C CNN
@@ -96,7 +96,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4400 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K2
+L meson-rescue:KEYSW-keyboard_parts K2
 U 1 1 5CA7405E
 P 5500 4200
 F 0 "K2" H 5500 4433 60  0000 C CNN
@@ -118,7 +118,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5200 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K3
+L meson-rescue:KEYSW-keyboard_parts K3
 U 1 1 5CA77280
 P 6300 4200
 F 0 "K3" H 6300 4433 60  0000 C CNN
@@ -140,7 +140,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6000 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K4
+L meson-rescue:KEYSW-keyboard_parts K4
 U 1 1 5CA77294
 P 7100 4200
 F 0 "K4" H 7100 4433 60  0000 C CNN
@@ -162,7 +162,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6800 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K5
+L meson-rescue:KEYSW-keyboard_parts K5
 U 1 1 5CA8AE62
 P 7900 4200
 F 0 "K5" H 7900 4433 60  0000 C CNN
@@ -184,7 +184,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7600 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K6
+L meson-rescue:KEYSW-keyboard_parts K6
 U 1 1 5CA8AE76
 P 8700 4200
 F 0 "K6" H 8700 4433 60  0000 C CNN
@@ -228,7 +228,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8400 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K23
+L meson-rescue:KEYSW-keyboard_parts K23
 U 1 1 5CA8AE9E
 P 8700 5650
 F 0 "K23" H 8700 5883 60  0000 C CNN
@@ -239,7 +239,7 @@ F 3 "" H 8700 5650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K8
+L meson-rescue:KEYSW-keyboard_parts K8
 U 1 1 5CAA2886
 P 4700 4700
 F 0 "K8" H 4700 4933 60  0000 C CNN
@@ -261,7 +261,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4400 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K9
+L meson-rescue:KEYSW-keyboard_parts K9
 U 1 1 5CAA289A
 P 5500 4700
 F 0 "K9" H 5500 4933 60  0000 C CNN
@@ -283,29 +283,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5200 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K10
-U 1 1 5CAA28AE
-P 6300 4700
-F 0 "K10" H 6300 4933 60  0000 C CNN
-F 1 "KEYSW" H 6300 4600 60  0001 C CNN
-F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED-Reversible" H 6300 4700 60  0001 C CNN
-F 3 "" H 6300 4700 60  0000 C CNN
-	1    6300 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:1N4148 D10
-U 1 1 5CAA28B8
-P 6000 4850
-F 0 "D10" V 6046 4771 50  0000 R CNN
-F 1 "1N4148" V 5955 4771 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6000 4675 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6000 4850 50  0001 C CNN
-	1    6000 4850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L keyboard_parts:KEYSW K11
+L meson-rescue:KEYSW-keyboard_parts K11
 U 1 1 5CAA28C2
 P 7100 4700
 F 0 "K11" H 7100 4933 60  0000 C CNN
@@ -327,7 +305,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6800 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K12
+L meson-rescue:KEYSW-keyboard_parts K12
 U 1 1 5CAA28D6
 P 7900 4700
 F 0 "K12" H 7900 4933 60  0000 C CNN
@@ -349,7 +327,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7600 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K13
+L meson-rescue:KEYSW-keyboard_parts K13
 U 1 1 5CAA28EA
 P 8700 4700
 F 0 "K13" H 8700 4933 60  0000 C CNN
@@ -371,7 +349,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8400 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K14
+L meson-rescue:KEYSW-keyboard_parts K14
 U 1 1 5CAA28FE
 P 9500 4700
 F 0 "K14" H 9500 4933 60  0000 C CNN
@@ -393,7 +371,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9200 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K15
+L meson-rescue:KEYSW-keyboard_parts K15
 U 1 1 5CAAE14C
 P 4700 5200
 F 0 "K15" H 4700 5433 60  0000 C CNN
@@ -415,7 +393,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4400 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K16
+L meson-rescue:KEYSW-keyboard_parts K16
 U 1 1 5CAAE160
 P 5500 5200
 F 0 "K16" H 5500 5433 60  0000 C CNN
@@ -437,17 +415,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5200 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K17
-U 1 1 5CAAE174
-P 6300 5200
-F 0 "K17" H 6300 5433 60  0000 C CNN
-F 1 "KEYSW" H 6300 5100 60  0001 C CNN
-F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED-Reversible" H 6300 5200 60  0001 C CNN
-F 3 "" H 6300 5200 60  0000 C CNN
-	1    6300 5200
-	1    0    0    -1  
-$EndComp
-$Comp
 L Diode:1N4148 D17
 U 1 1 5CAAE17E
 P 6000 5350
@@ -459,7 +426,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6000 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K18
+L meson-rescue:KEYSW-keyboard_parts K18
 U 1 1 5CAAE188
 P 7100 5200
 F 0 "K18" H 7100 5433 60  0000 C CNN
@@ -481,7 +448,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6800 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K19
+L meson-rescue:KEYSW-keyboard_parts K19
 U 1 1 5CAAE19C
 P 7900 5200
 F 0 "K19" H 7900 5433 60  0000 C CNN
@@ -503,7 +470,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7600 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K20
+L meson-rescue:KEYSW-keyboard_parts K20
 U 1 1 5CAAE1B0
 P 8700 5200
 F 0 "K20" H 8700 5433 60  0000 C CNN
@@ -525,7 +492,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8400 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K21
+L meson-rescue:KEYSW-keyboard_parts K21
 U 1 1 5CAAE1C4
 P 9500 5200
 F 0 "K21" H 9500 5433 60  0000 C CNN
@@ -558,7 +525,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7600 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K22
+L meson-rescue:KEYSW-keyboard_parts K22
 U 1 1 5CABC8F4
 P 7900 5650
 F 0 "K22" H 7900 5883 60  0000 C CNN
@@ -624,13 +591,6 @@ Wire Wire Line
 	8400 4500 9200 4500
 Wire Wire Line
 	4400 5000 5200 5000
-Connection ~ 5200 5000
-Wire Wire Line
-	5200 5000 6000 5000
-Connection ~ 6000 5000
-Wire Wire Line
-	6000 5000 6800 5000
-Connection ~ 6800 5000
 Wire Wire Line
 	6800 5000 7600 5000
 Connection ~ 7600 5000
@@ -657,7 +617,7 @@ Connection ~ 8400 5500
 Wire Wire Line
 	8400 5500 9200 5500
 $Comp
-L keyboard_parts:KEYSW Kb22
+L meson-rescue:KEYSW-keyboard_parts Kb22
 U 1 1 5CB2CEC6
 P 7900 5750
 F 0 "Kb22" H 7900 5983 60  0000 C CNN
@@ -694,11 +654,6 @@ Connection ~ 7400 4700
 Wire Wire Line
 	7400 4700 7400 5200
 Wire Wire Line
-	6600 4200 6600 4700
-Connection ~ 6600 4700
-Wire Wire Line
-	6600 4700 6600 5200
-Wire Wire Line
 	5800 4200 5800 4700
 Connection ~ 5800 4700
 Wire Wire Line
@@ -733,12 +688,12 @@ $EndComp
 $Comp
 L power:VCC #PWR0109
 U 1 1 5CB4CFD7
-P 5300 2950
-F 0 "#PWR0109" H 5300 2800 50  0001 C CNN
-F 1 "VCC" V 5317 3078 50  0000 L CNN
-F 2 "" H 5300 2950 50  0001 C CNN
-F 3 "" H 5300 2950 50  0001 C CNN
-	1    5300 2950
+P 5000 2900
+F 0 "#PWR0109" H 5000 2750 50  0001 C CNN
+F 1 "VCC" V 5017 3028 50  0000 L CNN
+F 2 "" H 5000 2900 50  0001 C CNN
+F 3 "" H 5000 2900 50  0001 C CNN
+	1    5000 2900
 	1    0    0    -1  
 $EndComp
 Text GLabel 5200 2300 0    50   Input ~ 0
@@ -770,28 +725,28 @@ $EndComp
 $Comp
 L Connector:Conn_01x04_Female TRRS1
 U 1 1 5CB4C5EC
-P 5800 3200
-F 0 "TRRS1" H 5692 3485 50  0000 C CNN
-F 1 "Conn_01x04_Female" H 5692 3394 50  0000 C CNN
-F 2 "Keebio-Parts:TRRS-PJ-320A" H 5800 3200 50  0001 C CNN
-F 3 "~" H 5800 3200 50  0001 C CNN
-	1    5800 3200
+P 5450 3150
+F 0 "TRRS1" H 5342 3435 50  0000 C CNN
+F 1 "Conn_01x04_Female" H 5342 3344 50  0000 C CNN
+F 2 "Keebio-Parts:TRRS-PJ-320A" H 5450 3150 50  0001 C CNN
+F 3 "~" H 5450 3150 50  0001 C CNN
+	1    5450 3150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x04_Female TRRS2
 U 1 1 5CB4F0AC
-P 4750 3200
-F 0 "TRRS2" H 4642 3485 50  0000 C CNN
-F 1 "Conn_01x04_Female" H 4642 3394 50  0000 C CNN
-F 2 "Keebio-Parts:TRRS-PJ-320A" H 4750 3200 50  0001 C CNN
-F 3 "~" H 4750 3200 50  0001 C CNN
-	1    4750 3200
+P 4450 3150
+F 0 "TRRS2" H 4342 3435 50  0000 C CNN
+F 1 "Conn_01x04_Female" H 4342 3344 50  0000 C CNN
+F 2 "Keebio-Parts:TRRS-PJ-320A" H 4450 3150 50  0001 C CNN
+F 3 "~" H 4450 3150 50  0001 C CNN
+	1    4450 3150
 	-1   0    0    -1  
 $EndComp
-Text GLabel 5200 3550 3    50   Input ~ 0
+Text GLabel 4900 3500 3    50   Input ~ 0
 SDA
-Text GLabel 5300 3550 3    50   Input ~ 0
+Text GLabel 5000 3500 3    50   Input ~ 0
 SCL
 Wire Wire Line
 	7600 5650 7600 5750
@@ -803,7 +758,7 @@ Wire Wire Line
 Wire Wire Line
 	8400 6150 8400 5950
 $Comp
-L keyboard_parts:KEYSW K7
+L meson-rescue:KEYSW-keyboard_parts K7
 U 1 1 5CA8AE8A
 P 9500 4200
 F 0 "K7" H 9500 4433 60  0000 C CNN
@@ -942,9 +897,9 @@ Wire Wire Line
 Wire Wire Line
 	8200 5650 8200 5750
 Connection ~ 8200 5650
-Text Label 7700 2550 0    50   ~ 0
+Text Label 7700 2750 0    50   ~ 0
 row2
-Text Label 7700 2450 0    50   ~ 0
+Text Label 7700 2650 0    50   ~ 0
 row3
 Text Label 7700 3050 0    50   ~ 0
 col5
@@ -958,47 +913,103 @@ Text Label 6300 2550 2    50   ~ 0
 col0
 Text Label 6300 2750 2    50   ~ 0
 col1
-Text Label 7700 2650 0    50   ~ 0
+Text Label 7700 2450 0    50   ~ 0
 row0
 Text Label 6300 2650 2    50   ~ 0
 row1
 Wire Wire Line
-	4950 3300 5300 3300
+	4650 3250 5000 3250
 Wire Wire Line
-	5300 3300 5300 3550
-Connection ~ 5300 3300
+	5000 3250 5000 3500
 Wire Wire Line
-	5300 3300 5600 3300
+	4650 3350 4900 3350
 Wire Wire Line
-	4950 3400 5200 3400
+	4900 3350 4900 3500
 Wire Wire Line
-	5200 3400 5200 3550
-Connection ~ 5200 3400
-Wire Wire Line
-	5200 3400 5600 3400
-Wire Wire Line
-	5300 3100 5300 2950
+	5000 3050 5000 2900
 $Comp
 L power:GND #PWR0110
 U 1 1 5CB4CFE1
-P 5200 2950
-F 0 "#PWR0110" H 5200 2700 50  0001 C CNN
-F 1 "GND" V 5205 2822 50  0000 R CNN
-F 2 "" H 5200 2950 50  0001 C CNN
-F 3 "" H 5200 2950 50  0001 C CNN
-	1    5200 2950
+P 4900 2900
+F 0 "#PWR0110" H 4900 2650 50  0001 C CNN
+F 1 "GND" V 4905 2772 50  0000 R CNN
+F 2 "" H 4900 2900 50  0001 C CNN
+F 3 "" H 4900 2900 50  0001 C CNN
+	1    4900 2900
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4950 3100 5300 3100
+	4650 3050 5000 3050
 Wire Wire Line
-	5200 2950 5200 3200
-Connection ~ 5200 3200
+	4900 2900 4900 3150
 Wire Wire Line
-	5200 3200 4950 3200
+	4900 3150 4650 3150
 Wire Wire Line
-	5200 3200 5600 3200
-Connection ~ 5300 3100
+	4900 3150 5250 3150
+Connection ~ 4900 3150
 Wire Wire Line
-	5300 3100 5600 3100
+	5250 3050 5000 3050
+Connection ~ 5000 3050
+Wire Wire Line
+	5000 3250 5250 3250
+Connection ~ 5000 3250
+Wire Wire Line
+	4900 3350 5250 3350
+Connection ~ 4900 3350
+$Comp
+L Diode:1N4148 D10
+U 1 1 5CAA28B8
+P 8850 5500
+F 0 "D10" V 8896 5421 50  0000 R CNN
+F 1 "1N4148" V 8805 5421 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8850 5325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8850 5500 50  0001 C CNN
+	1    8850 5500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5200 5000
+Connection ~ 6800 5000
+$Comp
+L meson-rescue:KEYSW-keyboard_parts K17
+U 1 1 5CAAE174
+P 6300 5200
+F 0 "K17" H 6300 5433 60  0000 C CNN
+F 1 "KEYSW" H 6300 5100 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED-Reversible" H 6300 5200 60  0001 C CNN
+F 3 "" H 6300 5200 60  0000 C CNN
+	1    6300 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 4700 6600 5200
+Wire Wire Line
+	6600 4200 6600 4700
+Connection ~ 6600 4700
+$Comp
+L meson-rescue:KEYSW-keyboard_parts K10
+U 1 1 5CAA28AE
+P 6300 4700
+F 0 "K10" H 6300 4933 60  0000 C CNN
+F 1 "KEYSW" H 6300 4600 60  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED-Reversible" H 6300 4700 60  0001 C CNN
+F 3 "" H 6300 4700 60  0000 C CNN
+	1    6300 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D10
+U 1 1 5D3490C9
+P 6000 4850
+F 0 "D10" V 6046 4771 50  0000 R CNN
+F 1 "1N4148" V 5955 4771 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6000 4675 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6000 4850 50  0001 C CNN
+	1    6000 4850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 5000 6000 5000
+Connection ~ 6000 5000
+Wire Wire Line
+	6000 5000 6800 5000
 $EndSCHEMATC
